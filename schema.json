@@ -1,0 +1,68 @@
+{
+	"fields": [
+		{
+			"name": "Directorate",
+			"title": "Directorate",
+			"constraints": {
+				"required": true,
+				"type": "http://www.w3.org/2001/XMLSchema#string"
+			}
+		},
+		{
+			"name": "Division",
+			"title": "Division",
+			"constraints": {
+				"required": true,
+				"type": "http://www.w3.org/2001/XMLSchema#string"
+			}
+		},
+		{
+			"name": "Branch",
+			"title": "Branch",
+			"constraints": {
+				"required": true,
+				"type": "http://www.w3.org/2001/XMLSchema#string"
+			}
+		},
+		{
+			"name": "Grade",
+			"title": "Grade",
+			"constraints": {
+				"required": true,
+				"type": "http://www.w3.org/2001/XMLSchema#string"
+			}
+		},
+		{
+			"name": "HeadcountMale",
+			"title": "HeadcountMale",
+			"constraints": {
+				"required": false,
+				"type": "http://www.w3.org/2001/XMLSchema#int"
+			}
+		},
+		{
+			"name": "HeadcountFemale",
+			"title": "HeadcountFemale",
+			"constraints": {
+				"required": false,
+				"type": "http://www.w3.org/2001/XMLSchema#int"
+			}
+		},
+		{
+			"name": "FTE_Male",
+			"title": "FTE_Male",
+			"constraints": {
+				"required": false,
+				"type": "http://www.w3.org/2001/XMLSchema#float"
+			}
+		},
+		{
+			"name": "FTE_Female",
+			"title": "FTE_Female",
+			"constraints": {
+				"required": false,
+				"type": "http://www.w3.org/2001/XMLSchema#float"
+			}
+		}
+	]
+}
